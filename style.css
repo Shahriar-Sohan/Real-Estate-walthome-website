@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit the color from the parent element */
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+header{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:10px;
+    padding-bottom: 0px; 
+    background-image: linear-gradient(to right, #200739, #412b8b);
+}
+
+
+.navbar{
+    display: flex;
+    border: soli;
+    justify-content: space-between;        
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+        
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    color: rgb(252, 252, 252);
+    border: soli;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}
+.navbar-login{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    gap: 10px;
+    border: soli;
+    margin-right: 20px;
+    color: rgb(252, 252, 252);
+}
+
+
+#getStarted{
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    border: 0px;
+    white-space: nowrap;
+    background-color: rgb(99, 99, 244);
+    color: inherit;
+}
+
+
+
+
+
+
+.hero{
+    display: flex;
+    border: soli;
+    justify-content: space-between;        
+    align-items: center;
+    background-image: url("images/bg-pattern.png");
+    background-repeat: no-repeat;
+    width: 140vh;
+    
+    
+    
+}
+.hero-banner{
+    
+    font-size: 5vh;
+    color: aliceblue;
+    background-image: url("images/hero.png");
+    width: 140vh; 
+    height: 60vh; 
+    background-size: 70vh 60vh;
+    background-position: 70vh 5vh; 
+    background-repeat: no-repeat; 
+    color: white; 
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    flex-direction: column;
+}
+#small-font{
+    font-size: x-small;
+}
